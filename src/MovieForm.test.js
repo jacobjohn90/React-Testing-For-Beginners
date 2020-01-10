@@ -20,7 +20,7 @@ test('<MovieForm />', () => {
       value: 'hi',
     },
   })
-
+  // click the submit button
   fireEvent.click(getByText('Submit'))
 
   // you can used to mocked function to test to see how many times it has been called
