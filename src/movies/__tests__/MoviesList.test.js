@@ -1,7 +1,7 @@
 import React from 'react'
 import { render, cleanup, waitForElement } from 'react-testing-library'
 import { memoryRouter, MemoryRouter } from 'react-router-dom'
-import MoviesList from './MoviesList'
+import MoviesList from '../MoviesList'
 
 // needed to mock a fetch globally
 global.fetch = require('jest-fetch-mock')
